@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jose Rodrigo Gomez</title>
+<!-- Jquery -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" href="owl/owl-carousel/owl.carousel.css">
+<!-- Default Theme -->
+<link rel="stylesheet" href="owl/owl-carousel/owl.theme.css"
+>
+<!-- Include js plugin -->
+<script src="owl/owl-carousel/owl.carousel.js"></script>
+
+
+<!-- Waypoints -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/1.1.6/waypoints.min.js"></script>
+<!-- Stellar -->
+<script src="stellar.js-master/jquery.stellar.min.js"></script>
+<!-- Normalize -->
+<link rel="stylesheet" href="http://normalize-css.googlecode.com/svn/trunk/normalize.css" />
+<!-- Bootstrap CSS -->
+<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Mix It Up -->
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2"></script>
+<script src="mixitup.js"></script>
+<!-- Animate -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+<!-- Font-Quicksand -->
+<link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+<!-- Font-Permanent Marker -->
+<link href="http://fonts.googleapis.com/css?family=Permanent+Marker"  rel="stylesheet" type="text/css">
+<!-- Font-Girl Next Door -->
+<link href="http://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet" type="text/css">
+<!-- Font-Raleway -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300">
+<!-- Font-Gloria+Hallelujah -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+<!-- Cabin+Sketch -->
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet" type="text/css">
+<!-- Font-Hind-->
+<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet" type="text/css">
+<!-- Custom CSS-->
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+$(document).ready(function(){
+	$.stellar();
+});
+</script>
+
+</head>
+<body>
+<nav>
+  <div class="col-12 nav__container">
+    <p class="nav__container__title">Jose Gomez  { Web Developer }</p>
+    <ul class="nav__container__list">
+      <li class="nav__container__list__item"><a id="s1" href="#1">Home</a></li>
+      <li class="nav__container__list__item"><a id="s2" href="#2">About</a></li>
+      <li class="nav__container__list__item"><a id="s3" href="#3">Samples</a></li>
+      <li class="nav__container__list__item"><a id="s4" href="#4">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="1" class="home section">
+<video class="video" src="images/light.mp4" autoplay loop muted ></video>
+   	<div class="video__container">
+  	<h2 class="video__container__title">Let's Burn the Midnight Oil...</h2>
+  	<p class="video__container__main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsam tempora itaque perspiciatis porro odit iure. Quam nostrum dignissimos excepturi expedita totam obcaecati mollitia voluptatum nulla saepe maiores in accusantium.
+</br></br>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsam tempora itaque perspiciatis porro odit iure. Quam nostrum dignissimos excepturi expedita totam obcaecati mollitia voluptatum nulla saepe maiores in accusantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    </p>
+ 	</div>
+</section>
+
+
+<section id="2" class="about section">
+<div class="about__container">
+<h1 id="fittext1" class="about__container__title">ALL ABOUT ME!</h1>
+<main class="about__container__main">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. 
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. 
+
+Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. 
+</p>
+</main>
+</div>
+</section>
+
+
+<section id="3" class="samples section">
+<div class="controls">
+  <label class="label">PROJECT /</label>
+  <button id="button--all" class="filter" data-filter="all">All Projects</button>
+  <button id="button--web" class="filter" data-filter=".category-1">Web Design</button>
+  <button id="button--graphic" class="filter" data-filter=".category-2">Graphic Design</button>
+  <label class="label">ORDER /</label>
+  <button class="sort" data-sort="myorder:asc">Ascend</button>
+  <button class="sort" data-sort="myorder:desc">Descend</button>
+</div>
+<div id="Container" class="samples__container">
+  <div class="mix category-1" data-myorder="floridafishingreport"><img class="grayscale" src="images/ffr2.jpg"></div>
+  <div class="mix category-1" data-myorder="miufashion"><img class="grayscale" src="images/miu2.jpg"></div>
+  <div class="mix category-1" data-myorder="jrsports"><img class="grayscale" src="images/jrsports2.jpg"></div>
+  <div class="mix category-1" data-myorder="bonitalakeshome"><img class="grayscale" src="images/bonita.jpg"></div>
+  <div class="mix category-1" data-myorder="floridabayoutfittersabout"><img class="grayscale" src="images/contact-swo.jpg"></div>
+  <div class="mix category-1" data-myorder="floridabayoutfittersrentals"><img class="grayscale" src="images/swo_rentals.jpg"></div>
+  <div class="mix category-1" data-myorder="treehouse"><img class="grayscale" src="images/treehouse.jpg"></div>
+  <div class="mix category-1" data-myorder="bonitalakesfacilities"><img class="grayscale" src="images/facilities.jpg"></div>
+  <div class="mix category-2" data-myorder="floridabayoutfitters"><img class="grayscale" src="images/skinnywater_logo.png"></div>
+  <div class="mix category-2" data-myorder="bonitalakeslogo"><img class="grayscale" src="images/bonitalakes_logo.png"></div>
+  <div class="mix category-2" data-myorder="miufashionlogo"><img class="grayscale" src="images/miufashion_logo.png"></div>
+  <div class="mix category-2" data-myorder="reme"><img class="grayscale" src="images/reme-app-logo2.png"></div>
+  <div class="mix category-2" data-myorder="miamimosquitoes"><img class="grayscale" src="images/miamimosquito.png"></div>
+  <div class="mix category-2" data-myorder="sporta"><img class="grayscale" src="images/sporta_logo.png"></div>
+  <div class="mix category-2" data-myorder="yakingbuddy"><img class="grayscale" src="images/yakingbuddy_logo.png"></div>
+  <div class="mix category-2" data-myorder="jrdesign"><img class="grayscale" src="images/jrdesign_square_logo.png"></div>
+  <div class="gap"></div>
+  <div class="gap"></div>
+</div>
+<p class="samples__video">View my <a href="video.html">BOMBER LURE AD</a> as well</p>
+
+</section>
+
+
+<section id="4" class="contact section">
+<div class="contact__container">
+<h2 class="animated pulse infinite">Contact Me</h2>
+<ul>
+<li>JR Design</li>
+<li>13456 sw 120st</li>
+<li>Miami, FL 3325</li>
+<li>305 | 255 | 3000</li>
+<li>305 | 525 | 4500</li>
+<li><a href="#">contact@jrdesign.com</a></li>
+</ul>
+</div>
+</section>
+
+
+<section id="5" class="myowl">
+    <div id="owl-demo">
+              
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+      <div class="item"><img src="http://www.dreveterinary.com/lib/img/placeholder_large.png"></div>
+     
+    </div>
+</section>
+
+<section id="6" class="pan">
+<div class="example">
+<div id="panning" class="frame panning"></div>
+</div>
+</section>
+
+
+<footer class="footer">
+  <h2 class="footer__message1">The End</h2>
+  <h3 class="footer__message2">Thanks for visiting!</h3>
+  </footer>
+
+<a id="toTop" href="#1"><div class="to-top"></div></a>
+
+
+<!-- FitText -->
+<script src="FitText.js-master/jquery.fittext.js"></script>
+
+<script type="text/javascript">
+		$("#fittext1").fitText();
+</script>
+
+
+<!-- Waypoints -->
+<script>
+//Default active on home
+$('#s1').addClass("active-way");
+
+
+/*
+Smooth scrolling
+*/
+$("#s1").click(function() {
+     $('html, body').animate({
+         scrollTop:        $("#1").offset().top-65
+     }, 1000);
+  return false;
+ });
+
+$("#s2").click(function() {
+     $('html, body').animate({
+         scrollTop:        $("#2").offset().top-100
+     }, 1000);
+  return false;
+ });
+
+$("#s3").click(function() {
+     $('html, body').animate({
+         scrollTop:        $("#3").offset().top-100
+     }, 1000);
+  return false;
+ });
+
+$("#s4").click(function() {
+  $(this).addClass("active");
+     $('html, body').animate({
+         scrollTop:        $("#4").offset().top-100
+     }, 1000);
+  return false;
+ });
+
+$("#toTop").click(function() {
+     $('html, body').animate({
+         scrollTop:        $("#1").offset().top-65
+     }, 1000);
+  return false;
+ });
+
+
+/*
+Using jquery waypoints to change active on scroll
+*/
+$('#2').waypoint(function() {
+  $(".nav__container__list__item").children().removeClass("active-way");
+  $("#s2").addClass("active-way");
+}, { offset: 101 });
+
+$('#3').waypoint(function() {
+  $(".nav__container__list__item").children().removeClass("active-way");
+  $("#s3").addClass("active-way");
+}, { offset: 101 });
+
+$('#4').waypoint(function() {
+  $(".nav__container__list__item").children().removeClass("active-way");
+  $("#s4").addClass("active-way");
+}, { offset: 101 });
+
+$('#1').waypoint(function() {
+  $(".nav__container__list__item").children().removeClass("active-way");
+  $("#s1").addClass("active-way");
+}, { offset: 0 });
+
+$('#2').waypoint(function() {
+  $(".to-top").addClass("visible");
+}, { offset: 100 });
+
+$('#1').waypoint(function(event, direction) {
+  $(".to-top").removeClass("visible");
+}, { offset: 30 });
+</script>
+
+
+
+<script>
+   	  $(document).ready(function() {
+     
+      $("#owl-demo").owlCarousel({
+     
+          autoPlay: 3000, //Set AutoPlay to 3 seconds
+     
+          items : 4,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3]
+     
+      });
+     
+    });
+</script>
+
+
+
+
+<!-- ========== Panning ============ -->
+
+<script src="jquery.motio.min.js"></script>
+
+<script>
+var $example = $('.example');
+var frame = $example.find('.frame')[0];
+var offset = $example.offset();
+var motio = new Motio(frame, {
+  fps: 30,
+  bgWidth: 1024,
+  bgHeight: 1024
+});
+
+// Play/Pause when mouse enters/leaves the frame
+$example.on('mouseenter mouseleave', function (event) {
+  if (event.type === 'mouseenter') {
+    motio.play();
+  } else {
+    motio.pause();
+  }
+});
+
+// Update the animation speed & direction based on a cursor position
+$example.on('mousemove', function (event) {
+  motio.set('speedX', event.pageX - offset.left - motio.width / 2);
+  motio.set('speedY', event.pageY - offset.top - motio.height / 2);
+});
+</script>
+
+
+
+
+</body>
+</html>
